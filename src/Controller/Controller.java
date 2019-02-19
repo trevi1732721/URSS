@@ -5,7 +5,7 @@ import javafx.scene.shape.Ellipse;
 
 public class Controller {
     public Ellipse Visée(Double posX, Double posY){
-        Ellipse balle = new Ellipse(posX,posY,5,5);
+        Ellipse balle = new Ellipse(posX,posY,2,2);
         balle.setFill(Color.WHITE);
         balle.setStroke(Color.BLACK);
         return balle;
